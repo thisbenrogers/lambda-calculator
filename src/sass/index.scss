@@ -4,47 +4,56 @@
   margin: 0 auto;
   padding: 25px;
   border-radius: 10px;
-  border: 2px grey solid; }
+  border: 2px grey solid;
+}
 
 .logo {
-  padding: 15px; }
+  padding: 15px;
+}
 
 .App {
   margin-top: 5px;
-  width: 100%; }
+  width: 100%;
+}
 
 .display {
   height: 80px;
   line-height: 80px;
   padding: 15px;
   background-color: #2e2829;
-  border-radius: 100px;
+  border-radius:100px;
   color: white;
   text-align: end;
   font-size: 3rem;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 .button-wrapper {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding-left: 20px; }
+  padding-left: 20px;
+}
 
 .specials, .numbers, .operators {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+}
 
 .specials, .numbers {
-  width: 66%; }
+  width: 66%;
+}
 
 .operators {
   width: 33%;
   flex-direction: column;
-  margin-top: -100px; }
+  margin-top: -100px;
+}
 
 .numbers > button:nth-last-child(2) {
   width: 60%;
-  border-radius: 50px; }
+  border-radius: 50px;
+}
 
 .button {
   margin: 9px;
@@ -55,15 +64,17 @@
   height: 80px;
   width: 80px;
   border: none;
-  box-shadow: 0px 5px #2e2829; }
+  box-shadow: 0px 5px #2e2829;
+}
 
 .special {
-  background-color: #2061b0; }
+  background-color: #2061b0;
+}
 
 .number {
-  background-color: #113c78; }
+  background-color: #113c78;
+}
 
 .operator {
-  background-color: #4cb5e5; }
-
-/*# sourceMappingURL=App.css.map */
+  background-color: #4cb5e5;
+}
